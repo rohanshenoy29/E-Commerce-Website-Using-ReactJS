@@ -1,0 +1,58 @@
+
+.checkout-form {
+  width: 80%;
+  margin: 100px auto 0; 
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: calc(100% - 20px); 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button.checkout-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.span2 {
+    display: block;
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+  background-color: #f0f0f0; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.success {
+  background-color: #4caf50; /* Background color for success message */
+  color: #fff; /* Text color */
+  padding: 10px; /* Padding around the message */
+  border-radius: 5px; /* Rounded corners */
+  margin-top: 20px; /* Add margin at the top */
+  text-align: center; /* Center the text horizontally */
+}
